@@ -1,5 +1,5 @@
 package com.example.lab10
-
+//MainActivity
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -25,6 +25,6 @@ class MainActivity : ComponentActivity() {
             Lab10Theme {
                 SeriesApp()  // Aquí llamas a la función SeriesApp en lugar de Greeting
             }
-       }
-      }
+        }
+    }
 }
